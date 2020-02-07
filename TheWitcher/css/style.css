@@ -293,6 +293,7 @@ body {
         background: #fff;
         border: none;
         cursor: pointer;
+	z-index: 2;
     }
     .menu-btn:before {
         content:'';
@@ -338,6 +339,7 @@ body {
         background-color: #9d2929;
         width: 250px;
         padding-bottom: 40px;
+	z-index: 1;
     }
     .header-active {
         display: flex;
